@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui.MyRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:background= "#FF8247"
+        android:textColor= "#ffffff"
+        android:textSize="20dip"
+        android:padding= "20dip"
+        android:text="按钮1"
+        app:layout_position="center"/>
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:background= "#8B0A50"
+        android:textColor= "#ffffff"
+        android:textSize="20dip"
+        android:padding= "10dip"
+        android:text="按钮2222222222222"
+        app:layout_position = "left"/>
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:background= "#7CFC00"
+        android:textColor= "#ffffff"
+        android:textSize="20dip"
+        android:padding= "15dip"
+        android:text="按钮333333"
+        app:layout_position = "right"/>
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:background= "#1E90FF"
+        android:textColor= "#ffffff"
+        android:textSize="10dip"
+        android:padding= "10dip"
+        android:text="按钮4"
+        app:layout_position = "bottom"/>
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:background= "#191970"
+        android:textColor= "#ffffff"
+        android:textSize="20dip"
+        android:padding= "15dip"
+        android:text="按钮5"
+        app:layout_position = "rightAndBottom"/>
+
+</ui.MyRelativeLayout>

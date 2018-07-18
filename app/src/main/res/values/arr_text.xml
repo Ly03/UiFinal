@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="mText" format="string"/>
+        <attr name="mColor" format="color"/>
+        <attr name="mBackground" format="reference"/>
+        <attr name="mTextSize" format="integer"/>
+    </declare-styleable>
+</resources>
